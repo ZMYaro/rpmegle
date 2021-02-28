@@ -1,0 +1,26 @@
+{
+	"name": "rpmegle",
+	"version": "1.0.0",
+	"description": "Random-pairing chat, designed around fandom character role-playing",
+	"main": "server.js",
+	"devDependencies": {},
+	"scripts": {
+		"start": "node server.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/zmyaro/rpmegle.git"
+	},
+	"author": "Zachary Yaro",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/zmyaro/rpmegle/issues"
+	},
+	"homepage": "https://github.com/zmyaro/rpmegle#readme",
+	"dependencies": {
+		"express": "^4.17.1",
+		"lit-element": "^2.4.0",
+		"socket.io": "^3.1.2"
+	}
+}
